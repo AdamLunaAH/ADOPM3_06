@@ -7,7 +7,7 @@ namespace ADOPM3_06_01
     [XmlRoot("Candidate", Namespace = "http://mynamespace/test/")]
     public class Person
     {
-        [XmlElement("FirstName ")] 
+        [XmlElement("FirstName")] 
         public string Name { get; set; }
 
         [XmlAttribute("RoughAge")] 
